@@ -18,7 +18,7 @@ It was originally developed as part of the CS665 Deep Learning Final Project and
 ## 🧩 Dataset
 - **Source:** https://archive.ics.uci.edu/dataset/908/realwaste
 - **Structure:** One folder per class (compatible with `ImageDataGenerator.flow_from_directory`)
-
+```
 data/
 └── RealWaste/
 ├── Plastic/
@@ -26,6 +26,7 @@ data/
 ├── Glass/
 ├── Paper/
 └── TextileTrash/
+```
 
 - **Loading:** via `ImageDataGenerator` with training/validation split.
 - **Note:** The dataset path in the notebook can be changed to match your local setup.
